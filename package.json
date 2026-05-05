@@ -4,9 +4,7 @@
   "description": "A lightweight web app that converts Chinese scenes or awkward English into natural, idiomatic English expressions",
   "private": true,
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build",
-    "deploy": "vercel --prod"
+    "build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "openai": "^4.28.0"
