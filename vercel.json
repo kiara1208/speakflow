@@ -4,10 +4,6 @@
     {
       "src": "api/**/*.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "client/**",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -16,8 +12,8 @@
       "dest": "/api/translate.js"
     },
     {
-      "src": "/(.*)",
-      "dest": "/client/$1"
+      "source": "/(.*)",
+      "destination": "/client/dist/$1"
     }
   ]
 }
