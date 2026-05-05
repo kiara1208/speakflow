@@ -1,0 +1,17 @@
+{
+  "name": "speakflow",
+  "version": "1.0.0",
+  "description": "A lightweight web app that converts Chinese scenes or awkward English into natural, idiomatic English expressions",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
